@@ -88,7 +88,7 @@ public:
         return std::chrono::duration_cast<std::chrono::microseconds>(end - start).count();
     }
 
-    // Проведение эксперимента для одного типа данных и одного алгоритма
+    // //Проведение эксперимента для одного типа данных и одного алгоритма
     static std::vector<long long> runExperiment(
         const std::vector<int>& sizes,
         const std::string& dataType,

@@ -6,7 +6,7 @@
 
 
 class ArrayGenerator {
-private:
+private://
     std::mt19937 rng;
     std::uniform_int_distribution<int> dist;
 
